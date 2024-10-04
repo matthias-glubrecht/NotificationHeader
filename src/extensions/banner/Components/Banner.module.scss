@@ -1,0 +1,14 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.Banner {
+    @include ms-fontColor-white;
+    background-color: $ms-color-themeDark;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    .bannerText {
+        font-size: 30px;
+        font-weight: 600;
+    }
+}

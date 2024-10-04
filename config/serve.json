@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://sharepoint.contoso.local/sites/ppelt/SitePages/Home.aspx",
+      "customActions": {
+        "3eac1394-ff4e-42a5-94b9-db55f911f9a1": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "bannerText": "Hier könnte Ihre Werbung stehen."
+          }
+        }
+      }
+    },
+    "banner": {
+      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
+      "customActions": {
+        "3eac1394-ff4e-42a5-94b9-db55f911f9a1": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "bannerText": "Your advertisement could be placed here."
+          }
+        }
+      }
+    }
+  }
+}
