@@ -1,6 +1,6 @@
 ## notification-header
 
-This is where you include your WebPart documentation.
+This Application extension for SharePoint 2019 adds a Banner to each page in a Website or in a SiteCollection.
 
 ### Building the code
 
@@ -24,3 +24,7 @@ gulp test - TODO
 gulp serve - TODO
 gulp bundle - TODO
 gulp package-solution - TODO
+
+### Powershell script for activating it on SharePoint SiteCollections
+
+There are 2 Powershell scripts using PnP Powershell in the folder src/Deployment that aid you in adding and removing this ApplicationExtension from a SiteCollection.
